@@ -9,6 +9,9 @@ set hidden
 "set mouse=a " mouse & xterm interaction
 set showcmd " show command as its typed
 set signcolumn=yes
+set updatetime=100 " allows git gutter to update more quickly
+
+colorscheme elflord
 
 " disable matching parent behavior (use % instead)
 let g:loaded_matchparen=1
