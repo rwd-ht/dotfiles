@@ -11,3 +11,6 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 export PATH="$PATH:$HOME/.local/bin"
+
+test -d dotfiles && cd dotfiles && git pull
+
