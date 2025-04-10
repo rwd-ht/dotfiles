@@ -1,0 +1,15 @@
+[core]
+    editor = vim
+[color]
+    ui = true
+[color "status"]
+    changed = 166 bold
+    untracked = 166 bold
+    added = 46 bold
+[color "diff"]
+    old = 166 bold
+    new = 46 bold
+[difftool]
+    prompt = true
+[diff]
+    tool = vimdiff
